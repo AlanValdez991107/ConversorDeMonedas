@@ -23,7 +23,7 @@ public class ConversorDeMonedas {
 					double resultado;
 					
 					switch (tipoConversion) {
-				    	case "Peso a Dola":
+				    	case "Peso a Dolar":
 				    		resultado = valor * 0.056;
 				    		JOptionPane.showMessageDialog(null, "El valor es: " + resultado);
 				    		break;
