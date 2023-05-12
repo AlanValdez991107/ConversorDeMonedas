@@ -25,7 +25,7 @@ public class ConversorDeMonedas {
 					switch (tipoConversion) {
 				    	case "Peso a Dolar":
 				    		resultado = valor * 0.056;
-				    		JOptionPane.showMessageDialog(null, "El valor en dolar es: " + resultado);
+				    		JOptionPane.showMessageDialog(null, "El valor es: " + resultado);
 				    		break;
 				    	case "Peso a Euro":
 				    		resultado = valor * 0.051;
