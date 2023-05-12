@@ -10,7 +10,7 @@ public class ConversorDeMonedas {
 			
 			String SeleccionarConversor = 
 					(String)JOptionPane.showInputDialog
-					(null,"Elija el tipo de conversor:"
+					(null,"Elija el tipo de conversor de Moneda:"
 							+ " ","Cuadro de Dialogo de Entrada", JOptionPane.PLAIN_MESSAGE, null, TipoConversor,TipoConversor[0]);
 			
 			if (SeleccionarConversor == "Conversor de Monedas") {
