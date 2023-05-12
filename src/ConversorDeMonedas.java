@@ -29,7 +29,7 @@ public class ConversorDeMonedas {
 				    		break;
 				    	case "Peso a Euro":
 				    		resultado = valor * 0.051;
-				    		JOptionPane.showMessageDialog(null, "El valor es: " + resultado);
+				    		JOptionPane.showMessageDialog(null, "El valor es : " + resultado);
 				    		break;
 				    	case "Peso a Libras Esterlinas":
 				    		resultado = valor * 0.045;
